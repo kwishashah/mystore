@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * { margin: 0px; }
+        .row1{
+            display:flex;
+            background-color:plum;
+            justify-content: space-between;
+            align-items: center;
+            font-family: 'Courier New', Courier, monospace;
+        }
+        a:hover{
+            color: aliceblue;
+        }
+        a{
+            text-decoration: none;
+            color: black;
+        }
+        li{
+            display: inline-block;
+        }
+        .row2{
+            display:flex;
+            justify-content: center;
+        }
+        .row2 .box{
+            border: 2px solid blueviolet;
+            padding:10px;
+            margin:10px;
+        }
+        .row2 img{
+            float:left;
+            width:200px;
+            height:200px;
+            object-fit: cover;
+            padding:10px;
+        }
+        
+        .row3 {
+            display:flex;
+            justify-content:center;
+        }
+        .tbox, .ibox {
+            margin: 5px;
+        }
+        .tbox {
+            padding: 15px;
+            width: 400px;
+        }
+        .row3 img {
+            float: left;
+            width: 350px;
+            height: 350px;
+            object-fit: cover;
+        }
+        .footer{
+            display: flex;
+            justify-content: center;
+            color:black;
+        }
+        
+    </style>
+</head>
+<body>
+    <div>
+        <div class="row1">
+            <div >
+                <h1 style="font-family:'Courier New', Courier, monospace;">My Store</h1>
+            </div>
+            <div >
+                <ul>
+                <li><a href="home">Home</a></li>
+                <li><a href="services">Services</a></li>
+                <li><a href="about">About</a></li>
+                <li><a href="contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="row2">
+            <div class="box">
+                <img src="assets/images/cofee.jpg">
+                <h4>price:₹320</h4>
+                <button>Add to cart</button>
+            </div>
+            <div class="box">
+                <img src="assets/images/coldcofee.jpg">
+                <h4>Price:₹350</h4>
+                <button>Add to cart</button>
+            </div>
+            <div class="box">
+                <img src="assets/images/croissant.jpg">
+                <h4>Price:₹200</h4>
+                <button>Add to cart</button>
+            </div>
+        </div>
+        <div class="row3">
+            <div class="ibox">
+            <img src="assets/images/e7e6c3774795c754eac6c2bbeb0ba57a_1709896634.avif">
+            </div>
+            <div class="tbox">
+                <h3>Heading</h3>
+                <h4>Description....</h4>
+            </div>
+        </div>
+        <div class="row3">
+            <div class="tbox">
+                <h3>Heading</h3>
+                <h4>Description....</h4>
+            </div>
+            <div class="ibox">
+                <img src="assets/images/barista.jpg">
+            </div>
+        </div>
+        <div class="footer">
+            <h4>Copyright @ 2024 | All Rights Reserved</h4>
+        </div>
+    </div>
+
+
+    
+</body>
+</html>
